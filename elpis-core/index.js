@@ -16,6 +16,10 @@ module.exports = {
     /**
      * 启动项目
      * @params options 项目配置
+     * option = {
+     *  name,
+     *  homePage
+     * }
      */
     start(options = {}) {
         //创建koa实例
@@ -28,12 +32,10 @@ module.exports = {
         app.businessPath = path.resolve(app.baseDir, `.${sep}app`);
         //初始化环境配置
         app.env = env;
-
         console.log(`===  [start] env: ${app.env.get()} ===`)
 
         // 加载 middleware
         middlewareLoader(app);
-        console.log(app.middleware)
         console.log(`===  [start] load middleware done ===`);
 
         // 加载 router-schema
@@ -56,8 +58,16 @@ module.exports = {
         extendLoader(app);
         console.log(`===  [start] load extend done ===`);
 
+        // 注册全局中间件
+        try {
+            require(`${app.businessPath}${sep}middleware.js`)(app)
+            console.log(` == [start] load global middleware done == `)
+        } catch (e) {
+            console.log(`[exception] there is no middleware file`)
+        }
+        
         // 加载 router,需要写在加载其他中间件之后，在进行路由分发 
-        routerLoader(app); 
+        routerLoader(app);
         console.log(`===  [start] load router done ===`);
 
         const port = process.env.PORT || 8080;
