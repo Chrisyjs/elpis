@@ -18,8 +18,8 @@ const { sep } = path;
 
 module.exports = (app) => {
     //读取 app/middleware/ 文件夹下所有.js文件
-    const middlewarePath = path.resolve(app.businessPath, `${sep}middleware`);
-    const fileList = glob.sync(path.resolve(middlewarePath, `${sep}**${sep}**.js`))
+    const middlewarePath = path.resolve(app.businessPath, `.${sep}middleware`);
+    const fileList = glob.sync(path.resolve(middlewarePath, `.${sep}**${sep}**.js`))
 
     //遍历所有文件目录,把内容加载到 app.middlewares 下
     const middlewares = {}
@@ -35,12 +35,12 @@ module.exports = (app) => {
         const names = name.split(sep);
         for(let i = 0 ,len = names.length; i<len;++i){
              if(i === len -1){
-                tempMiddleware[name[i]] = require(path.resolve(file))(app); 
+                tempMiddleware[names[i]] = require(path.resolve(file))(app); 
              }else{
-                if(!tempMiddleware[name[i]]){
-                    tempMiddleware[name[i]] = {}
+                if(!tempMiddleware[names[i]]){
+                    tempMiddleware[names[i]] = {}
                 }
-                tempMiddleware = tempMiddleware[name[i]]
+                tempMiddleware = tempMiddleware[names[i]]
              }
         }
     });

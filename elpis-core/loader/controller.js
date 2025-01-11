@@ -19,8 +19,8 @@ const { sep } = path;
 
 module.exports = (app) => {
     //读取 app/controller/ 文件夹下所有.js文件
-    const controllerPath = path.resolve(app.businessPath, `${sep}controller`);
-    const fileList = glob.sync(path.resolve(controllerPath, `${sep}**${sep}**.js`))
+    const controllerPath = path.resolve(app.businessPath, `.${sep}controller`);
+    const fileList = glob.sync(path.resolve(controllerPath, `.${sep}**${sep}**.js`))
     
         //遍历所有文件目录,把内容加载到 app.controller 下
         const controller = {}
@@ -37,12 +37,12 @@ module.exports = (app) => {
             for(let i = 0 ,len = names.length; i<len;++i){
                  if(i === len -1){
                     const ControllerModule = require(path.resolve(file))(app); 
-                    tempController[name[i]] = new ControllerModule(); 
+                    tempController[names[i]] = new ControllerModule(); 
                  }else{
-                    if(!tempController[name[i]]){
-                        tempController[name[i]] = {}
+                    if(!tempController[names[i]]){
+                        tempController[names[i]] = {}
                     }
-                    tempController = tempController[name[i]]
+                    tempController = tempController[names[i]]
                  }
             }
         });

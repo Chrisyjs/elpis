@@ -1,1 +1,12 @@
-module.exports = (app) => {}
+const path = require("path")
+module.exports = (app) => {
+    const koaNunjucks = require('koa-nunjucks-2')
+    app.use(koaNunjucks({
+        ext: "tpl",
+        path: path.join(process.cwd(), "./app/public"),
+        nunjucksConfig:{
+            noCache:true,
+            trimBlocks:true
+        }
+    }))
+}

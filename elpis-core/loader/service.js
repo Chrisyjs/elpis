@@ -19,8 +19,8 @@ const { sep } = path;
 
 module.exports = (app) => {
     //读取 app/service/ 文件夹下所有.js文件
-    const servicePath = path.resolve(app.businessPath, `${sep}service`);
-    const fileList = glob.sync(path.resolve(servicePath, `${sep}**${sep}**.js`))
+    const servicePath = path.resolve(app.businessPath, `.${sep}service`);
+    const fileList = glob.sync(path.resolve(servicePath, `.${sep}**${sep}**.js`))
     
         //遍历所有文件目录,把内容加载到 app.service 下
         const service = {}
@@ -36,12 +36,12 @@ module.exports = (app) => {
             const names = name.split(sep);
             for(let i = 0 ,len = names.length; i<len;++i){
                  if(i === len -1){
-                    tempService[name[i]] = require(path.resolve(file))(app); 
+                    tempService[names[i]] = require(path.resolve(file))(app); 
                  }else{
-                    if(!tempService[name[i]]){
-                        tempService[name[i]] = {}
+                    if(!tempService[names[i]]){
+                        tempService[names[i]] = {}
                     }
-                    tempService = tempService[name[i]]
+                    tempService = tempService[names[i]]
                  }
             }
         });

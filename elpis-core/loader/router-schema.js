@@ -21,8 +21,8 @@ const { sep } = path;
 
 module.exports = (app) => {
     //读取 app/router-schema/ 文件夹下所有.js文件
-    const routerSchemaPath = path.resolve(app.businessPath, `${sep}router-schema`);
-    const fileList = glob.sync(path.resolve(routerSchemaPath, `${sep}**${sep}**.js`))
+    const routerSchemaPath = path.resolve(app.businessPath, `.${sep}router-schema`);
+    const fileList = glob.sync(path.resolve(routerSchemaPath, `.${sep}**${sep}**.js`))
     // 注册所有 routerSchema , 使得可以 app.routerSchema 这样访问
     let routerSchema = {}
     fileList.forEach(file => {
