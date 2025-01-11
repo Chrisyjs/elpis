@@ -21,7 +21,6 @@ module.exports = (app) => {
     const fileList = glob.sync(path.resolve(extendPath, `${sep}**${sep}**.js`))
     
         //遍历所有文件目录,把内容加载到 app.extend 下
-        const extend = {}
         fileList.forEach(file=>{
             //提取文件名称
             let name = path.resolve(file);
