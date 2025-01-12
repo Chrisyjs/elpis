@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ name }}</title>
+    <link href="/static/logo.png" rel="icon" type="image/x-icon">
+    <link href="/static/normalize.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>{{options}}</h1>
+    <button onclick="handleClick()">点击就送屠龙宝刀</button>
+    <script src="https://cdn.bootcss.com/axios/0.18.0/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-md5@0.8.3/src/md5.min.js"></script>
+    <script>
+        const handleClick = async () => {
+            const signKey = "adsadsads3313131adsadasdda1111";
+            const st = Date.now();
+            const res = await axios.request({
+                method: 'POST',
+                url: '/api/project/getList',
+                data: {
+                    proj_key:1
+                },
+                headers: {
+                    s_t: st, s_sign: md5(`${signKey}_${st}`)
+                }
+            });
+            // const res = await axios.request({
+            //     method: 'get',
+            //     url: '/api/project/getList',
+            //     params: {
+            //         proj_key:1
+            //     },
+            //     headers: {
+            //         s_t: st, s_sign: md5(`${signKey}_${st}`)
+            //     }
+            // });
+            console.log(res)
+        }
+    </script>
+</body>
+
+</html>
