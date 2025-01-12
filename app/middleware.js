@@ -21,4 +21,10 @@ module.exports = (app) => {
         formList:'1000mb',
         enableTypes: [ 'form', 'json', 'text' ]
     }))
+
+    // 引入异常捕获中间件
+    app.use(app.middlewares.errorHandle )
+
+    // 引入 API 合法性校验中间件
+    app.use(app.middlewares.apiSignVerify )
 }

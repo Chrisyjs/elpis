@@ -13,15 +13,21 @@
     <h1>{{options}}</h1>
     <button onclick="handleClick()">点击就送屠龙宝刀</button>
     <script src="https://cdn.bootcss.com/axios/0.18.0/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-md5@0.8.3/src/md5.min.js"></script>
     <script>
         const handleClick = async () => {
+            const signKey = "adsadsads3313131adsadasdda11111";
+            const st = Date.now();
             const res = await axios.request({
-                method:'POST',
-                url:'/api/project/getList',
-                data:{
-                    a:1,
-                    b:2,
-                    c:3
+                method: 'POST',
+                url: '/api/project/getList',
+                data: {
+                    a: 1,
+                    b: 2,
+                    c: 3
+                },
+                headers: {
+                    s_t: st, s_sign: md5(`${signKey}_${st}`)
                 }
             });
             console.log(res)

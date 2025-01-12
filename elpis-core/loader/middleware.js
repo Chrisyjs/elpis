@@ -27,7 +27,7 @@ module.exports = (app) => {
         //提取文件名称
         let name = path.resolve(file);
         //截取路径 把 app/middleware/custom-module/custom-middleware.js 改为custom-module/custom-middleware.js
-        name = name.substring(name.lastIndexOf(`middleware${sep}`) + `middlewares${sep}`.length,name.lastIndexOf('.'))
+        name = name.substring(name.lastIndexOf(`middleware${sep}`) + `middleware${sep}`.length,name.lastIndexOf('.'))
         //把'-'改为驼峰式
         name = name.replace(/[_-][a-z]/ig,(s)=>s.substring(1).toUpperCase())
         //挂载 middleware 到内存app对象中
