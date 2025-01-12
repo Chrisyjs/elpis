@@ -18,7 +18,6 @@ module.exports = (app) =>{
                 ctx.redirect(`${app?.options?.homePage ?? '/'}`)
                 return
             }
-
             const resBody = {
                 success: false,
                 code: 500,

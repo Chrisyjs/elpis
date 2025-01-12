@@ -16,20 +16,28 @@
     <script src="https://cdn.jsdelivr.net/npm/js-md5@0.8.3/src/md5.min.js"></script>
     <script>
         const handleClick = async () => {
-            const signKey = "adsadsads3313131adsadasdda11111";
+            const signKey = "adsadsads3313131adsadasdda1111";
             const st = Date.now();
             const res = await axios.request({
                 method: 'POST',
                 url: '/api/project/getList',
                 data: {
-                    a: 1,
-                    b: 2,
-                    c: 3
+                    proj_key:1
                 },
                 headers: {
                     s_t: st, s_sign: md5(`${signKey}_${st}`)
                 }
             });
+            // const res = await axios.request({
+            //     method: 'get',
+            //     url: '/api/project/getList',
+            //     params: {
+            //         proj_key:1
+            //     },
+            //     headers: {
+            //         s_t: st, s_sign: md5(`${signKey}_${st}`)
+            //     }
+            // });
             console.log(res)
         }
     </script>
