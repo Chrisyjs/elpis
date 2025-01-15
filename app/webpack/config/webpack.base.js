@@ -34,13 +34,13 @@ module.exports = {
             },
             {
                 test: /\.(png|jpe?g|gif)(\?.+)$/,
-                // use: {
-                //     loader: 'url-loader',
-                //     option: {
-                //         limit: 300,
-                //         esModule: false,
-                //     }
-                // }
+                use: {
+                    loader: 'url-loader',
+                    // option: {
+                    //     limit: 300,
+                    //     esModule: false,
+                    // }
+                }
             },
             {
                 test: /\.css$/,
@@ -58,13 +58,7 @@ module.exports = {
             },
         ]
     },
-    // 产物输出路径
-    output: {
-        filename: 'js/[name]_[chunkhash:8].bundle.js',
-        path: path.join(process.cwd(), './app/public/dist/prod'),
-        publicPath: 'dist/prod',
-        crossOriginLoading: 'anonymous'
-    },
+
     // 配置模块解析的具体行为(找到具体的路径)
     resolve: {
         extensions: ['.js', '.vue', '.less', '.css'],
@@ -109,5 +103,29 @@ module.exports = {
         })
     ],
     // 配置代码打包输出优化（代码分割，模块合并，缓存，TreeShaking,压缩等优化策略）
-    optimization: {}
+    optimization: {
+        splitChunks: {
+            chunks: 'all', // 对同步和异步模块都进行切割
+            maxAsyncRequests: 10, // 每次异步加载的最大并行请求数
+            maxInitialRequests: 10, // 入口点的最大并行请求数
+            cacheGroups: {
+                vendor: { // 第三方依赖库
+                    test: /[\\/]node_modules[\\/]/, // 打包 node_modules 中的文件
+                    name: 'vendor', // 模块名称
+                    priority: 20, //优先级，数字越大，优先级越高
+                    enforce: true, // 强制执行
+                    reuseExistingChunk: true, // 复用已有的chunk
+                },
+                common: { // 公共模块，
+                    name: 'common',// 模块名称
+                    minChunks: 2, // 被两处应用即被归为公共模块
+                    minSize: 1, //最小分割文件大小（1 byte）
+                    priority: 10, //优先级
+                    reuseExistingChunk: true, // 复用已有的chunk
+                }
+            }
+        },
+        // 将 webpack 运行时生产的代码打包到 runtime.js
+        runtimeChunk: true
+    }
 }   

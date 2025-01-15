@@ -1,3 +1,5 @@
+// 本地开发启动 devServer
+
 const webpack = require('webpack');
 const webBaseConfig = require('./config/webpack.base.js')
 

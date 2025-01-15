@@ -9,4 +9,4 @@ const content = ref('')
 console.log('page2')
 </script>
 
-<style lane="less" scoped></style>
+<style lang="less" scoped></style>
