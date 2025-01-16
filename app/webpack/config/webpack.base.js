@@ -39,7 +39,7 @@ module.exports = {
                     // option: {
                     //     limit: 300,
                     //     esModule: false,
-                    // }
+                    // } 
                 }
             },
             {

@@ -1,0 +1,209 @@
+[2025-01-12T14:02:14.634] [INFO] default - 123
+[2025-01-12T14:02:29.228] [INFO] default - 123
+[2025-01-12T14:02:29.820] [INFO] default - 123
+[2025-01-12T14:02:30.142] [INFO] default - 123
+[2025-01-12T14:02:30.394] [INFO] default - 123
+[2025-01-12T14:03:54.582] [INFO] default - 'local' 
+[2025-01-12T14:04:53.544] [INFO] default - 'local'  false
+[2025-01-12T14:45:32.769] [INFO] default - {"cause":{},"isOperational":true}
+[2025-01-12T14:45:32.770] [ERROR] default - == [ exception ] == {"cause":{},"isOperational":true}
+[2025-01-12T14:45:32.770] [ERROR] default - == [ exception ] == undefined template not found: output/entry.page3.html undefined
+[2025-01-12T14:45:39.966] [INFO] default - {"cause":{},"isOperational":true}
+[2025-01-12T14:45:39.967] [ERROR] default - == [ exception ] == {"cause":{},"isOperational":true}
+[2025-01-12T14:45:39.967] [ERROR] default - == [ exception ] == undefined template not found: output/entry.page3.html undefined
+[2025-01-12T14:46:02.445] [INFO] default - {"cause":{},"isOperational":true}
+[2025-01-12T14:46:02.446] [ERROR] default - == [ exception ] == {"cause":{},"isOperational":true}
+[2025-01-12T14:46:02.446] [ERROR] default - == [ exception ] == undefined template not found: output/entry.page3.html undefined
+[2025-01-12T14:46:45.898] [INFO] default - {"cause":{},"isOperational":true}
+[2025-01-12T14:46:45.899] [ERROR] default - == [ exception ] == {"cause":{},"isOperational":true}
+[2025-01-12T14:46:45.899] [ERROR] default - == [ exception ] == undefined template not found: output/entry.page3.html undefined
+[2025-01-12T14:47:03.907] [INFO] default - {"cause":{},"isOperational":true}
+[2025-01-12T14:47:03.907] [ERROR] default - == [ exception ] == {"cause":{},"isOperational":true}
+[2025-01-12T14:47:03.907] [ERROR] default - == [ exception ] == undefined template not found: output/entry.page3.html undefined
+[2025-01-12T15:13:49.550] [INFO] default - {}
+[2025-01-12T15:13:49.551] [ERROR] default - == [ exception ] == {}
+[2025-01-12T15:13:49.551] [ERROR] default - == [ exception ] == undefined Cannot destructure property 's_sign' of 'handles' as it is undefined. undefined
+[2025-01-12T15:13:54.027] [INFO] default - {}
+[2025-01-12T15:13:54.027] [ERROR] default - == [ exception ] == {}
+[2025-01-12T15:13:54.027] [ERROR] default - == [ exception ] == undefined Cannot destructure property 's_sign' of 'handles' as it is undefined. undefined
+[2025-01-12T15:13:54.048] [INFO] default - {}
+[2025-01-12T15:13:54.048] [ERROR] default - == [ exception ] == {}
+[2025-01-12T15:13:54.049] [ERROR] default - == [ exception ] == undefined Cannot destructure property 's_sign' of 'handles' as it is undefined. undefined
+[2025-01-12T15:13:58.653] [INFO] default - {}
+[2025-01-12T15:13:58.653] [ERROR] default - == [ exception ] == {}
+[2025-01-12T15:13:58.653] [ERROR] default - == [ exception ] == undefined Cannot destructure property 's_sign' of 'handles' as it is undefined. undefined
+[2025-01-12T15:13:58.667] [INFO] default - {}
+[2025-01-12T15:13:58.667] [ERROR] default - == [ exception ] == {}
+[2025-01-12T15:13:58.667] [ERROR] default - == [ exception ] == undefined Cannot destructure property 's_sign' of 'handles' as it is undefined. undefined
+[2025-01-12T15:15:25.006] [INFO] default - [GET /view/page1] signature: dd9dfd32a04fd6e2153cbfb312d7455f
+[2025-01-12T15:15:25.018] [INFO] default - [GET /favicon.ico] signature: dd9dfd32a04fd6e2153cbfb312d7455f
+[2025-01-12T15:15:30.115] [INFO] default - [GET /view/page1] signature: dd9dfd32a04fd6e2153cbfb312d7455f
+[2025-01-12T15:15:30.125] [INFO] default - [GET /favicon.ico] signature: dd9dfd32a04fd6e2153cbfb312d7455f
+[2025-01-12T15:16:05.716] [INFO] default - [GET /view/page1] signature: dd9dfd32a04fd6e2153cbfb312d7455f
+[2025-01-12T15:16:05.729] [INFO] default - [GET /favicon.ico] signature: dd9dfd32a04fd6e2153cbfb312d7455f
+[2025-01-12T15:16:41.399] [INFO] default - [POST /api/project/getList] signature: 0d3575bc7312b557c4bdf8adc4d39753
+[2025-01-12T15:16:41.400] [INFO] default - 'local'  false
+[2025-01-12T15:17:20.969] [INFO] default - [POST /api/project/getList] signature: 1278ed74b3b2d039f565893dcff10a92
+[2025-01-12T16:27:34.183] [INFO] default - [POST /api/project/getList] signature: f3dce2ef69c9a50e5ab2b125461078b0
+[2025-01-12T16:27:56.734] [INFO] default - [POST /api/project/getList] signature: 085270029c7d7b08b52283d219157e4b
+[2025-01-12T16:27:56.735] [INFO] default - [POST /api/project/getList] body: {"proj_key":1}
+[2025-01-12T16:27:56.735] [INFO] default - [POST /api/project/getList] query: {}
+[2025-01-12T16:27:56.735] [INFO] default - [POST /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","content-length":"14","accept":"application/json, text/plain, */*","s_sign":"085270029c7d7b08b52283d219157e4b","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736670476723","content-type":"application/json;charset=UTF-8","origin":"http://localhost:8080","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T16:27:56.736] [INFO] default - [POST /api/project/getList] params: undefined
+[2025-01-12T16:27:56.736] [INFO] default - 'local'  false
+[2025-01-12T16:32:39.126] [INFO] default - [POST /api/project/getList] signature: 97e53771a4b81d8afc93a29e132532fe
+[2025-01-12T16:32:39.127] [INFO] default - [POST /api/project/getList] body: {"proj_key":1}
+[2025-01-12T16:32:39.127] [INFO] default - [POST /api/project/getList] query: {}
+[2025-01-12T16:32:39.127] [INFO] default - [POST /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","content-length":"14","accept":"application/json, text/plain, */*","s_sign":"97e53771a4b81d8afc93a29e132532fe","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736670759115","content-type":"application/json;charset=UTF-8","origin":"http://localhost:8080","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T16:32:39.127] [INFO] default - [POST /api/project/getList] params: undefined
+[2025-01-12T16:32:39.128] [INFO] default - {}
+[2025-01-12T16:32:39.128] [ERROR] default - == [ exception ] == {}
+[2025-01-12T16:32:39.128] [ERROR] default - == [ exception ] == undefined headers is not defined undefined
+[2025-01-12T16:33:07.861] [INFO] default - [POST /api/project/getList] signature: 687318a7e174ec4491d4c0175a275703
+[2025-01-12T16:33:07.862] [INFO] default - [POST /api/project/getList] body: {"proj_key":1}
+[2025-01-12T16:33:07.862] [INFO] default - [POST /api/project/getList] query: {}
+[2025-01-12T16:33:07.862] [INFO] default - [POST /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","content-length":"14","accept":"application/json, text/plain, */*","s_sign":"687318a7e174ec4491d4c0175a275703","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736670787849","content-type":"application/json;charset=UTF-8","origin":"http://localhost:8080","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T16:33:07.862] [INFO] default - [POST /api/project/getList] params: undefined
+[2025-01-12T16:33:07.863] [INFO] default - 'local'  false
+[2025-01-12T16:34:17.935] [INFO] default - [GET /api/project/getList] signature: 23c11dbef8c6646f42bd5d1d84494f6c
+[2025-01-12T16:34:17.935] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T16:34:17.936] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T16:34:17.936] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"23c11dbef8c6646f42bd5d1d84494f6c","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736670857929","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T16:34:17.936] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T16:34:17.936] [INFO] default - {}
+[2025-01-12T16:34:17.936] [ERROR] default - == [ exception ] == {}
+[2025-01-12T16:34:17.936] [ERROR] default - == [ exception ] == undefined headers is not defined undefined
+[2025-01-12T16:34:51.616] [INFO] default - [GET /api/project/getList] signature: 598c8af80ddbeba20e541d386fd19723
+[2025-01-12T16:34:51.617] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T16:34:51.617] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T16:34:51.618] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"598c8af80ddbeba20e541d386fd19723","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736670891609","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T16:34:51.618] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T16:34:51.618] [INFO] default - {}
+[2025-01-12T16:34:51.618] [ERROR] default - == [ exception ] == {}
+[2025-01-12T16:34:51.619] [ERROR] default - == [ exception ] == undefined schema should be object or boolean undefined
+[2025-01-12T16:44:50.182] [INFO] default - [GET /api/project/getList] signature: 96ccc8b46c6c5741d6462b38c874b212
+[2025-01-12T16:44:50.183] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T16:44:50.183] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T16:44:50.184] [INFO] default - {}
+[2025-01-12T16:44:50.184] [ERROR] default - == [ exception ] == {}
+[2025-01-12T16:44:50.184] [ERROR] default - == [ exception ] == undefined header is not defined undefined
+[2025-01-12T16:45:07.669] [INFO] default - [GET /api/project/getList] signature: ec7f31b2531bc8b214f5dcf5b3d44817
+[2025-01-12T16:45:07.669] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T16:45:07.670] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T16:45:07.670] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"ec7f31b2531bc8b214f5dcf5b3d44817","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736671507661","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T16:45:07.670] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T16:45:07.671] [INFO] default - {}
+[2025-01-12T16:45:07.671] [ERROR] default - == [ exception ] == {}
+[2025-01-12T16:45:07.671] [ERROR] default - == [ exception ] == undefined schema should be object or boolean undefined
+[2025-01-12T16:55:47.376] [INFO] default - [GET /api/project/getList] signature: 7d4f6e29b6977e8372a40b6d100ed774
+[2025-01-12T16:55:47.377] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T16:55:47.377] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T16:55:47.378] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"7d4f6e29b6977e8372a40b6d100ed774","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736672147372","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T16:55:47.378] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T16:55:47.378] [INFO] default - {}
+[2025-01-12T16:55:47.378] [ERROR] default - == [ exception ] == {}
+[2025-01-12T16:55:47.378] [ERROR] default - == [ exception ] == undefined schema should be object or boolean undefined
+[2025-01-12T16:57:27.964] [INFO] default - [GET /api/project/getList] signature: da4e1eb14420fb7022540ed12db897bc
+[2025-01-12T16:57:27.965] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T16:57:27.965] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T16:57:27.965] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"da4e1eb14420fb7022540ed12db897bc","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736672247958","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T16:57:27.965] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T16:57:27.966] [INFO] default - {}
+[2025-01-12T16:57:27.966] [ERROR] default - == [ exception ] == {}
+[2025-01-12T16:57:27.966] [ERROR] default - == [ exception ] == undefined schema should be object or boolean undefined
+[2025-01-12T16:57:55.170] [INFO] default - [GET /api/project/getList] signature: 938acfe63193e5cf12906f8b55151a7b
+[2025-01-12T16:57:55.171] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T16:57:55.171] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T16:57:55.171] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"938acfe63193e5cf12906f8b55151a7b","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736672275163","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T16:57:55.172] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T16:57:55.173] [INFO] default - {}
+[2025-01-12T16:57:55.173] [ERROR] default - == [ exception ] == {}
+[2025-01-12T16:57:55.173] [ERROR] default - == [ exception ] == undefined schema should be object or boolean undefined
+[2025-01-12T16:58:51.514] [INFO] default - [GET /api/project/getList] signature: cc001cb5b3cbd67295314429cf62dbfc
+[2025-01-12T16:58:51.515] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T16:58:51.515] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T16:58:51.515] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"cc001cb5b3cbd67295314429cf62dbfc","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736672331508","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T16:58:51.515] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T16:58:51.516] [INFO] default - {}
+[2025-01-12T16:58:51.516] [ERROR] default - == [ exception ] == {}
+[2025-01-12T16:58:51.516] [ERROR] default - == [ exception ] == undefined schema should be object or boolean undefined
+[2025-01-12T17:03:56.852] [INFO] default - [GET /api/project/getList] signature: 5a235a5a43aa39383e8efa6e22424b4b
+[2025-01-12T17:03:56.853] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T17:03:56.853] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T17:03:56.853] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"5a235a5a43aa39383e8efa6e22424b4b","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736672636846","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T17:03:56.853] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T17:03:56.854] [INFO] default - {}
+[2025-01-12T17:03:56.854] [ERROR] default - == [ exception ] == {}
+[2025-01-12T17:03:56.854] [ERROR] default - == [ exception ] == undefined schema should be object or boolean undefined
+[2025-01-12T17:04:05.156] [INFO] default - [GET /api/project/getList] signature: ba25715383f3e5da583bd018fbde8f9f
+[2025-01-12T17:04:05.157] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T17:04:05.157] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T17:04:05.158] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"ba25715383f3e5da583bd018fbde8f9f","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736672645151","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T17:04:05.158] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T17:04:05.158] [INFO] default - {}
+[2025-01-12T17:04:05.159] [ERROR] default - == [ exception ] == {}
+[2025-01-12T17:04:05.159] [ERROR] default - == [ exception ] == undefined schema should be object or boolean undefined
+[2025-01-12T17:05:43.624] [INFO] default - 'local'  false
+[2025-01-12T17:06:23.562] [INFO] default - [GET /api/project/getList] signature: 4386018e0e6e66508ccc71002d93b195
+[2025-01-12T17:06:23.562] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T17:06:23.562] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T17:06:23.563] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"4386018e0e6e66508ccc71002d93b195","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736672783556","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T17:06:23.563] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T17:07:32.216] [INFO] default - [GET /api/project/getList] signature: 62e6b9ce9eb820ca7b134e899a1b7831
+[2025-01-12T17:07:32.216] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T17:07:32.217] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T17:07:32.217] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"62e6b9ce9eb820ca7b134e899a1b7831","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736672852210","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T17:07:32.217] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T17:08:00.075] [INFO] default - {}
+[2025-01-12T17:08:00.076] [ERROR] default - == [ exception ] == {}
+[2025-01-12T17:08:00.076] [ERROR] default - == [ exception ] == undefined next() called multiple times undefined
+[2025-01-12T17:08:00.090] [INFO] default - {}
+[2025-01-12T17:08:00.091] [ERROR] default - == [ exception ] == {}
+[2025-01-12T17:08:00.091] [ERROR] default - == [ exception ] == undefined next() called multiple times undefined
+[2025-01-12T17:08:26.617] [INFO] default - [GET /api/project/getList] signature: 2c642d835dd2a4242526574ed575f7a7
+[2025-01-12T17:08:26.618] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T17:08:26.618] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T17:08:26.618] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"2c642d835dd2a4242526574ed575f7a7","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736672906612","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T17:08:26.619] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T17:08:44.922] [INFO] default - [GET /api/project/getList] signature: 4b9740ac7c64dafef4b38bdeabeb5b4e
+[2025-01-12T17:08:44.923] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T17:08:44.923] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T17:08:44.924] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"4b9740ac7c64dafef4b38bdeabeb5b4e","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736672924918","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T17:08:44.924] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T17:09:03.475] [INFO] default - [GET /api/project/getList] signature: 3784bb0e79c22d8fbe15aacb04f6dce2
+[2025-01-12T17:09:03.476] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T17:09:03.476] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T17:09:03.476] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"3784bb0e79c22d8fbe15aacb04f6dce2","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736672943469","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T17:09:03.476] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T17:09:13.385] [INFO] default - [GET /api/project/getList] signature: bda38e52e2b003ab101c2436742f6cc9
+[2025-01-12T17:09:13.385] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T17:09:13.386] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T17:09:13.386] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"bda38e52e2b003ab101c2436742f6cc9","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736672953381","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T17:09:13.387] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T17:09:54.824] [INFO] default - [GET /api/project/getList] signature: f06fed5534110414996e7098e521b796
+[2025-01-12T17:09:54.825] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T17:09:54.825] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T17:09:54.825] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"f06fed5534110414996e7098e521b796","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736672994818","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T17:09:54.826] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T17:11:00.141] [INFO] default - [GET /api/project/getList] signature: e9891ad8b1cac85f1ba00ebea32f0f3d
+[2025-01-12T17:11:00.142] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T17:11:00.142] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T17:11:00.142] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"e9891ad8b1cac85f1ba00ebea32f0f3d","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736673060137","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T17:11:00.142] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T17:11:34.925] [INFO] default - [GET /api/project/getList] signature: 7d4f4fab42c09eb28541740404a95125
+[2025-01-12T17:11:34.926] [INFO] default - [GET /api/project/getList] body: {}
+[2025-01-12T17:11:34.926] [INFO] default - [GET /api/project/getList] query: {"proj_key":"1"}
+[2025-01-12T17:11:34.927] [INFO] default - [GET /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","accept":"application/json, text/plain, */*","s_sign":"7d4f4fab42c09eb28541740404a95125","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736673094917","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T17:11:34.927] [INFO] default - [GET /api/project/getList] params: undefined
+[2025-01-12T17:13:31.194] [INFO] default - [POST /api/project/getList] signature: 0904b07fa984ed68fb6808136cf6f849
+[2025-01-12T17:13:31.195] [INFO] default - [POST /api/project/getList] body: {"proj_key":1}
+[2025-01-12T17:13:31.195] [INFO] default - [POST /api/project/getList] query: {}
+[2025-01-12T17:13:31.195] [INFO] default - [POST /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","content-length":"14","accept":"application/json, text/plain, */*","s_sign":"0904b07fa984ed68fb6808136cf6f849","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736673211183","content-type":"application/json;charset=UTF-8","origin":"http://localhost:8080","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T17:13:31.195] [INFO] default - [POST /api/project/getList] params: undefined
+[2025-01-12T17:13:31.207] [INFO] default - 'local'  false
+[2025-01-12T17:14:18.312] [INFO] default - [POST /api/project/getList] signature: 23c329423f5977ac6053058096ef809f
+[2025-01-12T17:14:18.312] [INFO] default - [POST /api/project/getList] body: {"proj_key":1}
+[2025-01-12T17:14:18.312] [INFO] default - [POST /api/project/getList] query: {}
+[2025-01-12T17:14:18.313] [INFO] default - [POST /api/project/getList] header: {"host":"localhost:8080","connection":"keep-alive","content-length":"14","accept":"application/json, text/plain, */*","s_sign":"23c329423f5977ac6053058096ef809f","user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36","s_t":"1736673258300","content-type":"application/json;charset=UTF-8","origin":"http://localhost:8080","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8080/view/page1","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.9"}
+[2025-01-12T17:14:18.313] [INFO] default - [POST /api/project/getList] params: undefined
+[2025-01-12T17:14:18.324] [INFO] default - 'local'  false
