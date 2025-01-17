@@ -13,5 +13,18 @@ module.exports = (app) => {
                 },
             ]
         }
+
+        async list() {
+            return [
+                {
+                    name: 'project1',
+                    desc: '11111'
+                },
+                {
+                    name: 'project2',
+                    desc: '22222'
+                },
+            ]
+        }
     }
 }  
