@@ -11,7 +11,7 @@ module.exports = {
     // 入口配置
     entry: {
         'entry.page1': "./app/pages/page1/entry.page1.js",
-        'entry.page2': "./app/pages/page2/entry.page2.js",
+        // 'entry.page2': "./app/pages/page2/entry.page2.js",
     },
     // 模块解析配置（决定了要加载哪些模块，以及用什么样的方式去解析）
     module: {
@@ -63,7 +63,11 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.vue', '.less', '.css'],
         alias: {
-            $page: path.resolve(process.cwd(), './app/pages')
+            $page: path.resolve(process.cwd(), './app/pages'),
+            $common: path.resolve(process.cwd(), './app/pages/common'),
+            $widgets: path.resolve(process.cwd(), './app/pages/widgets'),
+            $common: path.resolve(process.cwd(), './app/pages/common'),
+            $store: path.resolve(process.cwd(), './app/pages/store'),
         }
     },
     // 配置 webpack 插件
@@ -75,6 +79,8 @@ module.exports = {
         // 把第三方库暴露到window context 下 
         new webpack.ProvidePlugin({
             Vue: 'vue',
+            axios: 'axios',
+            _: 'lodash'
         }),
         // 定义全局常量
         new webpack.DefinePlugin({
@@ -93,14 +99,14 @@ module.exports = {
             chunks: ['entry.page1']
         }),
         // 构造最终渲染的页面模板
-        new HtmlWebpackPlugin({
-            // 产物 （最终模板） 输出路径
-            filename: path.resolve(process.cwd(), './app/public/dist', 'entry.page2.html'),
-            // 指定要使用的模板文件
-            template: path.resolve(process.cwd(), './app/view/entry.html'),
-            // 要注入的代码块
-            chunks: ['entry.page2']
-        })
+        // new HtmlWebpackPlugin({
+        //     // 产物 （最终模板） 输出路径
+        //     filename: path.resolve(process.cwd(), './app/public/dist', 'entry.page2.html'),
+        //     // 指定要使用的模板文件
+        //     template: path.resolve(process.cwd(), './app/view/entry.html'),
+        //     // 要注入的代码块
+        //     chunks: ['entry.page2']
+        // })
     ],
     // 配置代码打包输出优化（代码分割，模块合并，缓存，TreeShaking,压缩等优化策略）
     optimization: {
