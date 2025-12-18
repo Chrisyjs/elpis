@@ -1,5 +1,5 @@
 <template>
-    <h1>page1 --罗鹏</h1>
+    <h1>page1 --yjs</h1>
     <input v-model="content" />
     <el-table :data="tableData" style="width: 100%;">
         <el-table-column prop="name" label="name" width="180"></el-table-column>

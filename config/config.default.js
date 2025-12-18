@@ -1,5 +1,5 @@
 module.exports = {
-    name:"罗鹏",
+    name:"yjs",
     age:28
 
 }
